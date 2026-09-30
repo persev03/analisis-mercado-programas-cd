@@ -306,7 +306,9 @@ section('Llevar el análisis a la reunión','Descargas completas del estudio. El
 cols=st.columns(3)
 with cols[0]:
     pdf=ROOT/'downloads/informe_ejecutivo_eia.pdf'
-    if pdf.exists():st.download_button('Informe ejecutivo · PDF',pdf.read_bytes(),pdf.name,'application/pdf',use_container_width=True)
+    if pdf.exists():
+        st.download_button('Informe ejecutivo · PDF',pdf.read_bytes(),'informe_ejecutivo_programas_cd_v2.pdf','application/pdf',use_container_width=True)
+        st.caption('Versión 2 · 30 sep 2026 · 5 páginas. Incluye guía de indicadores y mapa actualizado.')
 with cols[1]:
     f=ROOT/'data/benchmark_ciencia_datos_v3_completo.xlsx';st.download_button('Benchmark original v3 · Excel',f.read_bytes(),f.name,'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',use_container_width=True)
 with cols[2]:
