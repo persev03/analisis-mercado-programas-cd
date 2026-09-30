@@ -1,0 +1,228 @@
+{
+  "fecha_corte": "2026-09-30",
+  "fuentes": [
+    {
+      "archivo": "datos_snies_2021.xlsx",
+      "sha256": "08c3c3062bdea2a3922d340b5194f441048f24665e75876c1e5742483272306b",
+      "filas": 70607,
+      "filas_taxonomia": 90,
+      "anio": 2021,
+      "metrica": "matricula"
+    },
+    {
+      "archivo": "datos_snies_2022.xlsx",
+      "sha256": "5c748603bad64f8e54e3c743bab0d39f6d6286f6a671d3b3ef804c4c4c897aac",
+      "filas": 69755,
+      "filas_taxonomia": 120,
+      "anio": 2022,
+      "metrica": "matricula"
+    },
+    {
+      "archivo": "datos_snies_2023.xlsx",
+      "sha256": "d69133aa24b3446993e4077eea1798d770e2487fe81fe5c1afb976dac55ec0d2",
+      "filas": 72373,
+      "filas_taxonomia": 116,
+      "anio": 2023,
+      "metrica": "matricula"
+    },
+    {
+      "archivo": "datos_snies_2024.xlsx",
+      "sha256": "c358b42593d2a79ebb7eb8d7a127786bd423bd1825091a12ca6cb29e0976d63b",
+      "filas": 75175,
+      "filas_taxonomia": 144,
+      "anio": 2024,
+      "metrica": "matricula"
+    },
+    {
+      "archivo": "datos_snies_2025.xlsx",
+      "sha256": "f0d9b87d51bfcd601249d7be0d7fdc834f627d35fd854875338b4b2efc5c1976",
+      "filas": 108327,
+      "filas_taxonomia": 197,
+      "anio": 2025,
+      "metrica": "matricula"
+    },
+    {
+      "archivo": "snies_primer_curso_2021.xlsx",
+      "sha256": "fa868f4bcac5be4f134dbdae828957e8207869bc1bf181e11fc451f7a96f7724",
+      "filas": 47221,
+      "filas_taxonomia": 88,
+      "anio": 2021,
+      "metrica": "ingreso"
+    },
+    {
+      "archivo": "snies_primer_curso_2022.xlsx",
+      "sha256": "e516ddca1f01a75ac4696e4c13b26c6418fb0ffb42e1bd1b6ad1a1cbd96f922a",
+      "filas": 47273,
+      "filas_taxonomia": 112,
+      "anio": 2022,
+      "metrica": "ingreso"
+    },
+    {
+      "archivo": "snies_primer_curso_2023.xlsx",
+      "sha256": "a92a549b1b0d62a0936ae72aefe8f5a7c4b9f7ce58561432c828954a1f0a8479",
+      "filas": 49263,
+      "filas_taxonomia": 111,
+      "anio": 2023,
+      "metrica": "ingreso"
+    },
+    {
+      "archivo": "snies_primer_curso_2024.xlsx",
+      "sha256": "e999d4adc64256510c454bd3dc6237633adde714f861e384ffb7beedd8f666e3",
+      "filas": 52874,
+      "filas_taxonomia": 137,
+      "anio": 2024,
+      "metrica": "ingreso"
+    },
+    {
+      "archivo": "snies_primer_curso_2025.xlsx",
+      "sha256": "a48fc0ac8f7f026dfebb3a4537ff922eebc66d094e4dbeec0f090e98c045e72f",
+      "filas": 66582,
+      "filas_taxonomia": 185,
+      "anio": 2025,
+      "metrica": "ingreso"
+    }
+  ],
+  "filas_crudas_verificadas": 450,
+  "diferencias_crudos": [],
+  "registros_relevantes": 1300,
+  "programas_2025": 49,
+  "ofertas_municipales_2025": 51,
+  "totales_2025": [
+    {
+      "segmento": "Cercano",
+      "matricula": 3926.0,
+      "matricula_equivalente_anual": 3926.0,
+      "ingreso": 1231.0
+    },
+    {
+      "segmento": "Directo",
+      "matricula": 3437.0,
+      "matricula_equivalente_anual": 3396.0,
+      "ingreso": 2351.0
+    }
+  ],
+  "universidades": [
+    {
+      "universidad": "Universidad de Antioquia (UdeA)",
+      "alias": "UdeA",
+      "ambito": "G8 Medellín",
+      "ies": "UNIVERSIDAD DE ANTIOQUIA",
+      "municipio": "MEDELLIN",
+      "nota": "Con comparable cercano histórico."
+    },
+    {
+      "universidad": "Universidad Nacional de Colombia - Medellín",
+      "alias": "UNAL Medellín",
+      "ambito": "G8 Medellín",
+      "ies": "UNIVERSIDAD NACIONAL DE COLOMBIA",
+      "municipio": "MEDELLIN",
+      "nota": "Comparables cercanos históricos."
+    },
+    {
+      "universidad": "Universidad EAFIT",
+      "alias": "EAFIT",
+      "ambito": "G8 Medellín",
+      "ies": "UNIVERSIDAD EAFIT-",
+      "municipio": "MEDELLIN",
+      "nota": "Comparable cercano histórico."
+    },
+    {
+      "universidad": "Universidad Pontificia Bolivariana (UPB)",
+      "alias": "UPB Medellín",
+      "ambito": "G8 Medellín",
+      "ies": "UNIVERSIDAD PONTIFICIA BOLIVARIANA",
+      "municipio": "MEDELLIN",
+      "nota": "Directo histórico + nueva oferta directa 2026."
+    },
+    {
+      "universidad": "Universidad de Medellín",
+      "alias": "U. de Medellín",
+      "ambito": "G8 Medellín",
+      "ies": "UNIVERSIDAD DE MEDELLIN",
+      "municipio": "MEDELLIN",
+      "nota": "Cercano histórico + nueva oferta directa 2026."
+    },
+    {
+      "universidad": "Universidad CES",
+      "alias": "CES",
+      "ambito": "G8 Medellín",
+      "ies": "UNIVERSIDAD CES",
+      "municipio": "MEDELLIN",
+      "nota": "Sin comparable directo/cercano en la taxonomía 2025."
+    },
+    {
+      "universidad": "Universidad EIA",
+      "alias": "EIA",
+      "ambito": "G8 Medellín",
+      "ies": "UNIVERSIDAD EIA",
+      "municipio": "ENVIGADO",
+      "nota": "CD inicia 2026-1; 59 estudiantes internos 2026*."
+    },
+    {
+      "universidad": "Corporación Universitaria Lasallista (Unilasallista)",
+      "alias": "Unilasallista",
+      "ambito": "G8 Medellín",
+      "ies": "CORPORACION UNIVERSITARIA LASALLISTA",
+      "municipio": "CALDAS",
+      "nota": "Sin comparable directo/cercano en la taxonomía 2025."
+    },
+    {
+      "universidad": "Universidad de los Andes",
+      "alias": "Uniandes",
+      "ambito": "Benchmark nacional",
+      "ies": "UNIVERSIDAD DE LOS ANDES",
+      "municipio": "BOGOTA, D.C.",
+      "nota": "CD inicia 2027-1; sin histórico 2025."
+    },
+    {
+      "universidad": "Universidad Nacional de Colombia - Bogotá",
+      "alias": "UNAL Bogotá",
+      "ambito": "Benchmark nacional",
+      "ies": "UNIVERSIDAD NACIONAL DE COLOMBIA",
+      "municipio": "BOGOTA, D.C.",
+      "nota": "Comparables cercanos históricos."
+    },
+    {
+      "universidad": "Pontificia Universidad Javeriana",
+      "alias": "Javeriana",
+      "ambito": "Benchmark nacional",
+      "ies": "PONTIFICIA UNIVERSIDAD JAVERIANA",
+      "municipio": "BOGOTA, D.C.",
+      "nota": "Directo histórico."
+    },
+    {
+      "universidad": "Universidad del Rosario",
+      "alias": "Rosario",
+      "ambito": "Benchmark nacional",
+      "ies": "COLEGIO MAYOR DE NUESTRA SENORA DEL ROSARIO",
+      "municipio": "BOGOTA, D.C.",
+      "nota": "Comparable cercano histórico."
+    },
+    {
+      "universidad": "Universidad de La Sabana",
+      "alias": "La Sabana",
+      "ambito": "Benchmark nacional",
+      "ies": "UNIVERSIDAD DE LA SABANA",
+      "municipio": "CHIA",
+      "nota": "Directo histórico."
+    },
+    {
+      "universidad": "Universidad del Norte",
+      "alias": "Uninorte",
+      "ambito": "Benchmark nacional",
+      "ies": "UNIVERSIDAD DEL NORTE",
+      "municipio": "BARRANQUILLA",
+      "nota": "Directo histórico."
+    },
+    {
+      "universidad": "Universidad Icesi",
+      "alias": "Icesi",
+      "ambito": "Benchmark nacional",
+      "ies": "UNIVERSIDAD ICESI",
+      "municipio": "SANTIAGO DE CALI",
+      "nota": "Sin comparable directo/cercano en la taxonomía 2025."
+    }
+  ],
+  "fuente_benchmark": "benchmark_ciencia_datos_v3_completo.xlsx",
+  "sha256_benchmark": "f553ad15e86ea69ed22c6dbe4f41a5a459ae150aacd91e3baa7003f6336f1462"
+}

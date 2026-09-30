@@ -1,0 +1,82 @@
+[
+  {
+    "Orden":1,
+    "Universidad":"Universidad Pontificia Bolivariana (UPB)",
+    "Programa directo":"Ingeniería en Ciencia de Datos",
+    "Fecha registro calificado":"2019-12-10",
+    "Año registro":2019,
+    "Inicio \/ primera observación":"2020\/2021*",
+    "Interpretación":"Registro MEN 14258 (10-dic-2019); primer año observado en nuestra serie: 2021.",
+    "Fuente":"https:\/\/www.upb.edu.co\/es\/ingenieria-ciencia-de-datos"
+  },
+  {
+    "Orden":2,
+    "Universidad":"Pontificia Universidad Javeriana",
+    "Programa directo":"Ciencia de Datos",
+    "Fecha registro calificado":"2019-12-27",
+    "Año registro":2019,
+    "Inicio \/ primera observación":"2020\/2021*",
+    "Interpretación":"Registro MEN 16761 (27-dic-2019); primer año observado en nuestra serie: 2021.",
+    "Fuente":"https:\/\/www.javeriana.edu.co\/estudia-en-la-javeriana\/novedades"
+  },
+  {
+    "Orden":3,
+    "Universidad":"Universidad del Norte",
+    "Programa directo":"Ciencia de Datos",
+    "Fecha registro calificado":"2021-05-04",
+    "Año registro":2021,
+    "Inicio \/ primera observación":"2021",
+    "Interpretación":"Registro calificado 007515 del 04-may-2021.",
+    "Fuente":"https:\/\/www.uninorte.edu.co\/web\/ciencia-de-datos"
+  },
+  {
+    "Orden":4,
+    "Universidad":"Universidad de La Sabana",
+    "Programa directo":"Ciencia de Datos",
+    "Fecha registro calificado":"2023-06-21",
+    "Año registro":2023,
+    "Inicio \/ primera observación":"2024",
+    "Interpretación":"Registro calificado 009900 del 21-jun-2023; primera observación SNIES en este análisis: 2024.",
+    "Fuente":"https:\/\/www.unisabana.edu.co\/programas\/pregrados\/ciencia-de-datos"
+  },
+  {
+    "Orden":5,
+    "Universidad":"Universidad de los Andes",
+    "Programa directo":"Ciencia de Datos",
+    "Fecha registro calificado":"2024-12-27",
+    "Año registro":2024,
+    "Inicio \/ primera observación":"2027-1",
+    "Interpretación":"Registro 25603 del 27-dic-2024; inicio de clases enero de 2027.",
+    "Fuente":"https:\/\/www.uniandes.edu.co\/es\/programas\/ciencia-de-datos"
+  },
+  {
+    "Orden":6,
+    "Universidad":"Universidad EIA",
+    "Programa directo":"Ciencia de Datos",
+    "Fecha registro calificado":"2025-06-13",
+    "Año registro":2025,
+    "Inicio \/ primera observación":"2026-1",
+    "Interpretación":"Registro 011955 del 13-jun-2025; inicio 2026-1.",
+    "Fuente":"https:\/\/es.linkedin.com\/posts\/universidad-eia_universidadeia-activity-7354252848747974658-uYRJ"
+  },
+  {
+    "Orden":7,
+    "Universidad":"Universidad de Medellín",
+    "Programa directo":"Ingeniería de Datos e Inteligencia Artificial",
+    "Fecha registro calificado":"2026-04-16",
+    "Año registro":2026,
+    "Inicio \/ primera observación":"2026",
+    "Interpretación":"Registro 010366 del 16-abr-2026.",
+    "Fuente":"https:\/\/ingenierias.udemedellin.edu.co\/ingenieria-de-datos-e-inteligencia-artificial\/"
+  },
+  {
+    "Orden":8,
+    "Universidad":"Universidad Pontificia Bolivariana (UPB)",
+    "Programa directo":"Ingeniería en IA y Ciencia de Datos",
+    "Fecha registro calificado":"2026-04-22",
+    "Año registro":2026,
+    "Inicio \/ primera observación":"2026",
+    "Interpretación":"Registro 010674 del 22-abr-2026.",
+    "Fuente":"https:\/\/portal.upb.edu.co\/pregrados\/ingenieria-en-ciencia-de-datos"
+  }
+]
