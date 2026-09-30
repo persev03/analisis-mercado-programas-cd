@@ -14,6 +14,7 @@ html,body,[class*="css"],.stApp{font-family:'DM Sans',sans-serif}h1,h2,h3,h4{fon
 .block-container{padding:1.6rem 2.6rem 3rem;max-width:1600px}header[data-testid="stHeader"]{background:transparent;height:2rem}
 [data-testid="stSidebar"]{background:#14283F;color:#E7EDF3;min-width:255px;max-width:275px}
 [data-testid="stSidebar"] *{color:#E7EDF3}[data-testid="stSidebar"] [data-baseweb="select"] *{color:#182B44}
+[data-testid="stSidebar"] [role="combobox"],[data-testid="stSidebar"] .react-aria-ComboBox button,[data-testid="stSidebar"] .react-aria-ComboBox button *{color:#182B44}
 [data-testid="stSidebar"] [data-testid="stWidgetLabel"] p{font-size:12px;letter-spacing:.035em;color:#C0CDD9}
 [data-testid="stSidebar"] hr{border-color:#32445A}[data-testid="stSidebar"] [data-testid="stCaptionContainer"] p{color:#A8BAC9;font-size:11px}
 .brand{font-family:Manrope,sans-serif;font-size:46px;font-weight:800;letter-spacing:-5px;color:white;line-height:1}.brand span{font-size:10px;letter-spacing:2px;display:block;margin-top:14px;color:#80CDD3}
@@ -66,6 +67,7 @@ with st.sidebar:
     year=st.select_slider('Año observado',options=list(range(2021,2026)),value=2025)
     segments=st.multiselect('Segmentos',['Directo','Cercano'],default=['Directo','Cercano'])
     metric_label=st.selectbox('Indicador',['Matrícula equivalente anual','Nuevo ingreso observado','Matrícula media observada'])
+    indicator_help=st.empty()
     st.divider()
     st.caption('SNIES · 2021–2025\n\nActualización del análisis: 30 sep 2026\n\nEIA 2026: referencia interna separada de las cifras oficiales.')
 metric={'Matrícula equivalente anual':'matricula_equivalente_anual','Nuevo ingreso observado':'ingreso','Matrícula media observada':'matricula'}[metric_label]
@@ -79,8 +81,7 @@ definitions={
     'ingreso':'Estudiantes que entraron a primer curso durante el año, según los reportes disponibles. Ejemplo: 20 nuevos en el primer semestre y 30 en el segundo dan 50 ingresos. No incluye a quienes ya venían cursando el programa. Si falta un semestre, el total puede estar incompleto.',
     'matricula':'Tamaño promedio del programa usando únicamente los semestres que sí tienen reporte. Con 100 y 120 estudiantes da 110. Si solo se reportó un semestre con 100, da 100, porque se divide entre 1. Coincide con la matrícula equivalente cuando hay datos de ambos semestres.'
 }
-with st.sidebar:
-    st.info(definitions[metric])
+indicator_help.info(definitions[metric])
 
 COORDS={'Bogotá, D.C.':(4.711,-74.072),'Medellín':(6.244,-75.581),'Manizales':(5.070,-75.514),'Montería':(8.748,-75.881),'Santiago de Cali':(3.452,-76.532),'Bucaramanga':(7.119,-73.122),'Ibagué':(4.438,-75.232),'Chía':(4.863,-74.032),'Barranquilla':(10.989,-74.781),'Tunja':(5.535,-73.367),'Cartagena de Indias':(10.391,-75.480),'Soledad':(10.918,-74.765),'La Paz':(10.386,-73.171),'Envigado':(6.168,-75.586)}
 CITY_COLORS={'Bogotá, D.C.':'#2563EB','Medellín':'#008579','Santiago de Cali':'#9B4AC5','Barranquilla':'#D97706','Bucaramanga':'#CC4269','Montería':'#6B7130'}
