@@ -77,7 +77,7 @@ current=hist[hist.anio==year].copy()
 if not segments:
     st.info('Selecciona al menos un segmento para explorar el mercado.'); st.stop()
 definitions={
-    'matricula_equivalente_anual':'Tamaño del programa en un semestre promedio del año: sumamos la matrícula reportada y dividimos siempre entre 2. Ejemplo: 100 estudiantes en el primer semestre y 120 en el segundo dan 110. Si solo hay un reporte de 100, el resultado es 50; esto no significa que el otro semestre tuviera cero estudiantes. Esta medida reproduce el Excel original.',
+    'matricula_equivalente_anual':'Tamaño del programa en un semestre promedio del año: sumamos la matrícula reportada y dividimos siempre entre 2. Ejemplo: 100 estudiantes en el primer semestre y 120 en el segundo dan 110. Si solo hay un reporte de 100, el resultado es 50; esto no significa que el otro semestre tuviera cero estudiantes.',
     'ingreso':'Estudiantes que entraron a primer curso durante el año, según los reportes disponibles. Ejemplo: 20 nuevos en el primer semestre y 30 en el segundo dan 50 ingresos. No incluye a quienes ya venían cursando el programa. Si falta un semestre, el total puede estar incompleto.',
     'matricula':'Tamaño promedio del programa usando únicamente los semestres que sí tienen reporte. Con 100 y 120 estudiantes da 110. Si solo se reportó un semestre con 100, da 100, porque se divide entre 1. Coincide con la matrícula equivalente cuando hay datos de ambos semestres.'
 }
@@ -307,8 +307,8 @@ cols=st.columns(3)
 with cols[0]:
     pdf=ROOT/'downloads/informe_ejecutivo_eia.pdf'
     if pdf.exists():
-        st.download_button('Informe ejecutivo · PDF',pdf.read_bytes(),'informe_ejecutivo_programas_cd_v3.pdf','application/pdf',use_container_width=True)
-        st.caption('Versión 3 · 30 sep 2026 · 6 páginas. Analiza 2021–2025 e incluye guía de indicadores y mapa actualizado.')
+        st.download_button('Informe ejecutivo · PDF',pdf.read_bytes(),'informe_ejecutivo_programas_cd_v4.pdf','application/pdf',use_container_width=True)
+        st.caption('Versión 4 · 1 oct 2026 · 6 páginas. Analiza 2021–2025 e incluye guía de indicadores y mapa actualizado.')
 with cols[1]:
     f=ROOT/'data/benchmark_ciencia_datos_v3_completo.xlsx';st.download_button('Benchmark original v3 · Excel',f.read_bytes(),f.name,'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',use_container_width=True)
 with cols[2]:
